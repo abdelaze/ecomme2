@@ -1,0 +1,7 @@
+=================================
+
+   == function document ==
+
+===============================
+
+getAll($field,$table,$where=NULL,$and=NULL,$order,$ordering='DESC')

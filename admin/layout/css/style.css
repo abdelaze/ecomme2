@@ -1,0 +1,453 @@
+body {
+
+	background-color: #f4f4f4; 
+   font-size: 16px;
+    
+
+
+}
+
+
+/* select box */
+
+.selectboxit-container .selectboxit-options {
+
+   
+    width: 210px;
+
+   
+    max-height: 240px;
+
+  }
+
+/* end select box */
+
+
+
+
+/* start bootstrap style  */
+
+.form-control {
+  position: relative;
+}
+
+.star  {
+    
+    position: absolute;
+    top: 4px;
+    right: 22px;
+    color: #f00;
+    font-size: 30px;
+}
+
+.show {
+  position: absolute;
+  top:0px;
+  right: -25px;
+}
+
+
+.login {
+   
+   width: 400px;
+   margin: 100px auto; 
+   border :1px solid #ccc;
+   padding:80px 50px 50px;
+   background: #337ab7;
+   border-radius: 0px 150px 0px 0px;
+   height: 350px; 
+}
+.login h3 {
+	color: #f4f4f4;
+}
+
+.login input {
+	margin-bottom: 10px;
+}
+
+/*style navbar */
+
+.navbar {
+   border-radius: 0px;
+   margin-bottom: 0px;
+}
+
+.navbar-brand  {
+   font-size: 1em;
+} 
+  
+
+.dropdown:hover
+ {
+
+   background: #673AB7;  
+}
+.dropdown-menu:hover 
+ 
+ {
+   background: #673AB7;
+
+}
+
+
+
+.dropdown-menu {
+   padding: 0;
+   box-shadow: none;
+   border: none;
+  
+}
+
+
+.dropdown-menu>li>a {
+
+    padding: 11px 17px;
+     transition: all .5s ease-in-out;
+}
+
+
+.dropdown-menu>li>a:hover {
+   padding-left: 30px; 
+}
+
+
+/* end bbotstrap style */
+
+
+/* satrt member page */
+
+
+.main-table td {
+  background-color: #fff;
+  vertical-align: middle !important;
+  
+}
+
+.main-table tr:first-child td {
+   
+   background-color: #333;
+   color: #fff;
+}
+
+.main-table .btn {
+
+  padding: 3px 10px;
+}
+.main-table {
+  box-shadow: 0 3px 5px #ccc;
+}
+
+.manage-table img {
+  width: 50px;
+  height: 50px;
+} 
+/*Style Dashobrd*/
+
+.home .stat {
+  background-color: #ddd;
+  font-size: 20px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+.home .stat a {
+  
+  color: #fff; 
+}
+.home .stat a:hover {
+
+  text-decoration: none;
+}
+
+.home .st-member {
+  background: #3498db;
+  color: #fff;
+}
+.home .st-pending {
+  background: #9b59b6;
+  color: #fff;
+}
+.home .st-item {
+  background: #2ecc71;
+  color: #fff;
+}
+.home .st-comment {
+  background: #e74c3c;
+  color: #fff;
+}
+.home .stat span {
+  display: block;
+  font-size: 40px;
+}
+
+.home .stat {
+  overflow: hidden;
+  height: 150px;
+
+}
+.home .stat .info {
+  width: 55%;
+
+}
+
+.home .stat i {
+  
+  font-size: 80px;
+  width: 25%;
+}
+
+
+.latest {
+  margin-top: 35px;
+}
+
+.latest-list {
+  margin-bottom: 0;
+}
+.latest-list li {
+
+  padding: 8px 8px;
+  overflow: hidden;
+  
+}
+.latest-list li:nth-child(odd) {
+  
+     background: #EEE;
+}
+
+.latest-list li {
+  padding: 10px 10px;
+  
+}
+.latest-list .btn {
+  padding: 3px 5px;
+}
+.latest-list .btn-success {
+  margin-left: 3px;
+}
+
+
+.hide {
+
+  display: none;
+ 
+}
+
+.latest #latest-member ,.latest #latest-items{
+
+     cursor: pointer;
+}
+.latest #latest-member:hover, .latest #latest-items:hover {
+
+  font-size: 15px;
+  color: #999;
+}
+
+.latest .com-box  .member-n {
+
+   display: inline-block;
+   margin-right: 20px;
+   width: 80px;
+   cursor: pointer;
+
+}
+
+.latest .com-box  {
+  margin: 5px 0 10px;
+}
+
+.latest .com-box  .member-c {
+
+   display: inline-block;
+
+   width: calc(100% - 100px);
+   background-color: #EEE;
+   padding: 12px;
+   position: relative;
+}
+
+.latest .com-box  .member-c:before {
+  
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    top: 3px;
+    left: -30px;
+   border-style: solid;
+    border-width: 15px;
+    border-color: transparent #EEE transparent transparent;
+}
+
+
+
+
+
+
+
+
+
+
+}
+/* end dahbord style */
+
+
+
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+
+
+/* strart category page */
+
+.categories .cat h3 {
+  margin: 0 0 8px 0; 
+}
+
+.categories {
+
+  padding: 0;
+}
+
+.categories .cat {
+
+  padding: 25px 15px 15px 8px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.categories .cat hr {
+  margin: 8px 0 0 0;
+
+}
+
+.ordering a {
+
+   color: #888;
+   text-decoration: none;
+}
+
+ .ordering .active {
+
+    color: #F00;
+    font-weight: bold;
+}
+
+.add-cat {
+  margin-top:-10px;
+  margin-bottom: 20px; 
+}
+
+
+
+
+.categories .cat .hidden-buttons {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+  transition: all .7s ease-in-out;
+}
+
+.categories .cat:hover .hidden-buttons {
+
+    right: 10px;
+}
+
+.categories .cat .hidden-buttons a {
+  margin-right: 5px;
+}
+
+
+.categories .cat:last-of-type ~hr {
+  display: none;
+}
+
+
+.categories .cat .vis {
+    
+    background-color: #34495e;
+    padding: 3px 12px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+.categories .cat .com {
+    
+    background-color: #e67e22;
+    padding: 3px 12px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.categories .cat .advs {
+    
+    background-color: #e74c3c;
+    padding: 3px 12px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.categories .cat-head {
+
+  cursor: pointer;
+}
+
+.categories .full  .hide {
+    
+    display: none;
+}
+.categories .child-head {
+   
+   margin:10px 0 10px 25px;
+   color: #dc6363;
+}
+
+.categories .child-cats {
+    
+    margin:10px 0 10px 35px;
+}
+
+.categories .child-cats li {
+
+     transition: all .5s ease-in-out;
+    
+}
+
+.categories .child-cats a {
+
+   margin-right: 15px;
+}
+.categories .child-cats li:before{
+    
+   content: '- ';
+}
+
+.categories .child-cats .child-del {
+
+  color: #f00;
+  display: none
+}
+
+
+
+/* end catogry page */
+
+
+
+
+
+
+
